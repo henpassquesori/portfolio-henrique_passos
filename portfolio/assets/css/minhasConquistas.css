@@ -1,0 +1,76 @@
+.minhasConquistas {
+    color:#f2f2f2;
+    background: #2B2B28;
+    padding: 20px 0 5px 0;
+}
+
+.minhasConquistas .tituloConquista::before{
+    background: #f2f2f2;
+}   
+
+.minhasConquistas .tituloConquista::after{
+    background: #2B2B28;
+    content: '';
+}
+
+.minhasConquistas .tituloConquista::after{
+    content: '';
+}
+.minhasConquistas .carrossel .conquista{
+    background: #4b4b4b;
+    border-radius: 6px;
+    padding: 25px 35px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.minhasConquistas .carrossel .conquista:hover{
+    background: #009fe3;
+}
+.minhasConquistas .carrossel .conquista .conquistaCaixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+.minhasConquistas .carrossel .conquista:hover .conquistaCaixa {
+    transform: scale(1.05);
+}
+.minhasConquistas .carrossel .conquista .tituloConquista {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 15px 0;
+}
+.minhasConquistas .carrossel .conquista img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #009fe3;
+    transition: all 0.3s ease;
+}
+.minhasConquistas .carrossel .conquista:hover img {
+    border-color: #f2f2f2;
+}
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+.owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none!important;
+    border-radius: 50%;
+    border: 2px solid #009fe3!important;
+    transition: all 0.3s ease;
+}
+.owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover {
+    background: #009fe3!important;
+}

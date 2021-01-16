@@ -1,0 +1,446 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #F2F2F2;
+	font-family: 'Montserrat';
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.cabecalhoPrincipal {
+    background-color: #2B2B28;
+	padding: 20px 0;
+}
+
+.logo-flor {
+	width: 50px;
+}
+
+.cabecalhoPrincipal-nav-link {
+	padding: 10px;
+	margin: 10px 0 10px 0;
+	color: #f2f2f2;
+	text-decoration: none;	
+	display: block;
+	border-radius: 6px;
+	border: 2px solid #f2f2f2;
+	transition: color 0.3s ease;
+}
+
+.cabecalhoPrincipal-nav-link:hover {
+	color: #009fe3;
+	border-radius: 5px;
+	border: 2px solid #009fe3;
+}
+
+.conteudoPrincipal {
+	margin-top: 20px;
+}
+
+/*Sobre Mim*/
+
+.sobreMim {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-betwee;
+	/*background: linear-gradient(#F2F5F7 0, #F2F5F7 5%, #585858 97%);*/
+}
+
+.sobreMim-detalhes {
+	margin-bottom: 30px;
+}
+
+.sobreMim-destaque {
+	display: flex;
+	margin-top: 20px;
+	justify-content: space-between;
+}
+
+.sobreMim-img {
+	margin: -80px 0 0 0;
+	width: 410px;
+	align-self: flex-end;
+}
+
+.sobreMim-uConquista {
+	display: flex;
+	align-items: center;
+}
+
+.sobreMim-icon {
+	width: 70px;
+	align-self: flex-start;
+}
+
+.txt-conquista {
+	padding: 10px;
+	margin-left: 10px;
+	font-size: 25px;
+	color: #009fe3;
+	font-weight: 700;
+}
+
+.sobreMim-minhasConquistas {
+	display: inline-block;
+	background-color: #2B2B28;
+	padding: 10px;
+	margin-left: 10px;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 700;
+	color: #F2F2F2;
+	border-radius: 6px;
+	border: 2px solid #009fe3;
+	transition: color 1s ease;
+}
+
+.sobreMim-minhasConquistas:hover {
+	color: #2B2B28;
+	background-color: #f2f2f2;
+	border-radius: 6px;
+    border: 2px solid #009fe3;
+}
+
+.sobreMim-texto {
+	font-size: 30px;
+	font-weight: 500;
+	align-self: flex-end;
+	padding-bottom: 30px;
+	color: #3a3a3a;
+}
+
+.texto-colorido {
+	color: #009fe3;
+	font-weight: 700;
+}
+
+/*Redes Sociais*/
+
+.redesSociais-linkedin {
+	display: inline-block;
+	text-decoration: none;
+	width: 50px;
+	content: url(../img/contactos/linkedin-escuro.png);
+	transition: color 1s ease;
+}
+
+.redesSociais-linkedin:hover {
+	content: url(../img/contactos/linkedin-claro.png);
+}
+
+.redesSociais-behance {
+	display: inline-block;
+	text-decoration: none;
+	width: 50px;
+	content: url(../img/contactos/behance-escuro.png);
+	transition: color 1s ease;
+}
+
+.redesSociais-behance:hover {
+	content: url(../img/contactos/behance-claro.png);
+}
+
+.redesSociais-github {
+	display: inline-block;
+	text-decoration: none;
+	width: 50px;
+	content: url(../img/contactos/github-escuro.png);
+	transition: color 1s ease;
+}
+
+.redesSociais-github:hover {
+	content: url(../img/contactos/github-claro.png);
+}
+
+.redesSociais-email {
+	display: inline-block;
+	text-decoration: none;
+	width: 50px;
+	content: url(../img/contactos/email-escuro.png);
+	transition: color 1s ease;
+}
+
+.redesSociais-email:hover {
+	content: url(../img/contactos/email-claro.png);
+}
+
+.redesSociais-instagram {
+	display: inline-block;
+	text-decoration: none;
+	width: 50px;
+	content: url(../img/contactos/instagram-escuro.png);
+	transition: color 1s ease;
+}
+
+.redesSociais-instagram:hover {
+	content: url(../img/contactos/instagram-claro.png);
+}
+
+/*Experiência Profissional*/
+
+.xpProfissional {
+	display: flex;
+	justify-content: space-between;
+	color: #F2F5F7;
+	padding: 5px 0 5px 0;
+	background-color: #2B2B28;
+}
+
+.subtitulo {
+	display: block;
+	font-weight: bold;
+	font-size: 32px;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+
+.minhasConquistas .container .subtitulo {
+	margin: 0 0 20px 0;
+}
+
+.emprego1, .emprego2 {
+	display: flex;
+	margin-top: 30px;
+}
+
+#empregoSabores, #empregoRolo {
+	border: 2px solid #009fe3;
+}
+ 
+#empregoSabores:hover {
+	content: url(../img/empregos/emprego_sabores-hover.png);
+	border: 2px solid #009fe3;
+	box-shadow: 2px 2px 2px #007eb4;
+}
+
+#empregoRolo:hover {
+	content: url(../img/empregos/emprego_rolo-hover.png);
+	border: 2px solid #009fe3;
+	box-shadow: 2px 2px 2px #007eb4;
+}
+
+.direito-autoral {
+	display: inline-block;
+	color: #009fe3;
+	font-size: 12px;
+	margin-top: 15px;
+	
+}
+
+.emprego1-detalhes, .emprego2-detalhes {
+	flex-direction: column;
+	padding-left: 30px;
+}
+
+/*Educação*/
+
+.educacao {
+	display: flex;
+	justify-content: space-between;
+	color: #F2F5F7;
+	padding: 5px 0 5px 0;
+	background-color: #2B2B28;
+}
+
+.educacao .container {
+	margin-bottom: 20px;
+}
+
+.educacao .subtitulo {
+	margin: 20px 0 60px 0;
+}
+
+.saibaMais-entidades {
+	display: inline-block;
+	background-color: #2B2B28;
+	padding: 10px;
+	width: 50%;
+	text-align: left;
+	margin: 20px 0 0 0;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 700;
+	color: #f2f2f2;
+	border-radius: 6px;
+	border: 2px solid #009fe3;
+	transition: color 1s ease;
+}
+
+.saibaMais-entidades:hover {
+	color: #2B2B28;
+	background-color: #f2f2f2;
+	border-radius: 6px;
+    border: 2px solid #009fe3;
+}
+
+/*Voltar ao Topo*/
+
+.btnTop {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	height: 50px;
+	width: 50px;
+	font-size: 24px;
+	color: #f2f2f2;
+	background-color: #2B2B28;
+	border: 2px solid #009fe3;
+	border-radius: 10px;
+	display: none;
+	transition: color 1s ease;
+}
+
+.btnTop:hover {
+	color: #2B2B28;
+	background-color: #f2f2f2;
+	border-radius: 10px;
+    border: 2px solid #009fe3;
+}
+
+/*Rodapé*/
+
+.rodapePrincipal {
+	background-color: #324C64;
+	padding-top: 20px;
+}
+
+.rodapePrincipal .subtitulo {
+	color: #FFF;
+}
+
+.rodapePrincipal-patrocinadores {
+	margin-top: 30px;
+	background: #F2F5F7;
+	padding: 20px 0;
+}
+
+.rodapePrincipal-contatoForm {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.rodapePrincipal-contatoForm label[for=email-contato] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.rodapePrincipal-contatoForm-emailInput {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+
+.rodapePrincipal-contatoForm-submit {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: #4DBA7A;
+	color: #FFF;
+	cursor: pointer;
+	
+}
+
+.rodapePrincipal-contatoForm-submit,
+.rodapePrincipal-contatoForm-emailInput {
+	outline: 0;
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.rodapePrincipal-contatoForm-legend {
+	margin-bottom: 10px;
+}
+
+.copyright {
+    color: #f2f2f2;
+	font-size: 20px;
+    padding: 10px 0 10px 0;
+}
+
+/*Tablet*/
+
+@media(min-width: 769px) {
+
+	.container {
+		width: 85%;	
+	}
+
+	.subtitulo {
+		text-align: left;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		border-radius: 5px;
+		color: #F2F2F2;
+		background-color: #2B2B28;
+		border: 2px solid #f2f2f2;
+		transition: color 0.3s ease;
+		text-decoration: none;
+	}
+
+	.cabecalhoPrincipal-nav-link:hover {
+		color: #009fe3;
+		border-radius: 5px;
+    	border: 2px solid #009fe3;
+	}
+}
+
+}*/
+
+	.cabecalhoPrincipal-titulo {
+		margin: 0;
+	}
+
+	.cabecalhoPrincipal-nav {
+		width: auto;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		width: auto;
+		margin: 0 0 0 10px;
+	}
+
+	/*.sobreMim-destaque{
+		display: flex;
+		flex-wrap: wrap;
+	}*/
+
+	.rodapePrincipal-contatoForm {
+		margin-top: 0;
+		text-align: left;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n) {
+		margin-right: 0;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
+		margin-left: 0;
+	}
+
+}
+
+@media(min-width: 1000px) {
+	.conteudoPrincipal-cursos-link {
+		margin: 1.333%;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n) {
+		margin-right: 1.33%;
+	}
+
+	.conteudoPrincipal-cursos-link:nth-child(3n+1) {
+		margin-left: 1.333%;
+	}
+
+}
+
+
