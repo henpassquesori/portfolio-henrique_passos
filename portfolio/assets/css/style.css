@@ -202,14 +202,14 @@ body {
 /*mobile*/
 @media(max-width: 375px) {
 	.btnTop {
-		position: -9999px;
+		left: -9999px;
 	}
 }
 
 /*tablet*/
 @media(max-width: 768px) {
 	.btnTop {
-		position: -9999px;
+		left: -9999px;
 	}
 }
 
