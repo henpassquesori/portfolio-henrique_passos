@@ -199,6 +199,20 @@ body {
     padding: 10px 0 10px 0;
 }
 
+/*mobile*/
+@media(max-width: 375px) {
+	.btnTop {
+		right: -9999px;
+	}
+}
+
+/*tablet*/
+@media(max-width: 768px) {
+	.btnTop {
+		right: -9999px;
+	}
+}
+
 */
 	.cabecalhoPrincipal-titulo {
 		margin: 0;
@@ -212,4 +226,5 @@ body {
 		width: auto;
 		margin: 0 0 0 10px;
 	}
+
 
