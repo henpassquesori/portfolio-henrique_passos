@@ -103,6 +103,89 @@
 	.educacao .container .subtitulo {
 		margin-top: 0;
 	}
+}
 
+/*Tablet*/
+@media(max-width: 768px) {
+	.container {
+		width: 85%;	
+	}
+
+	.subtitulo {
+		text-align: left;
+	}
+
+	.cabecalhoPrincipal-nav {
+		flex-direction: column;
+	}
+
+	.cabecalhoPrincipal .container {
+		flex-direction: column;
+		align-items: initial;
+		text-align: center;
+	}
+
+	.cabecalhoPrincipal-titulo {
+		margin-bottom: 10px;
+	}
+
+	.cabecalhoPrincipal-nav-link-linkedin {
+		order: -1;
+	}
+
+	.cabecalhoPrincipal-nav-link {
+		margin: 0 0 10px 0;
+		border-radius: 5px;
+		color: #F2F2F2;
+		background-color: #2B2B28;
+		border: 2px solid #f2f2f2;
+		transition: color 0.3s ease;
+		text-decoration: none;
+	}
+	.cabecalhoPrincipal-nav-link:hover {
+		color: #009fe3;
+		border-radius: 5px;
+    	border: 2px solid #009fe3;
+	}
+
+	.cabecalhoPrincipal-titulo {
+		margin-bottom: 10px;
+	}
+
+	/*Sobre Mim*/
+
+	.sobreMim-uConquista {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.sobreMim-minhasConquistas {
+		margin: 20px 0 0 0;
+	}
+
+	.sobreMim {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	/*Experiência Profissional*/
+
+	.xpProfissional .container {
+		margin: 20px 0 20px 20px;
+	}
 	
+	.emprego1, .emprego2 {
+		flex-wrap: wrap;
+	}
+
+	.emprego1-detalhes, .emprego2-detalhes {
+		margin: 20px 0 0 0;
+		padding-left: 0;
+	}
+
+	/*Educação*/
+
+	.educacao .container .subtitulo {
+		margin-top: 0;
+	}
 }

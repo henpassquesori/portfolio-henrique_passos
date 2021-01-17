@@ -109,7 +109,19 @@
   background: #009fe3; 
 }
 
+/*mobile*/
 @media(max-width: 375px) {
+  .range {
+		width: 100%;
+	}
+	
+	.field {
+		height: 100%;
+	}
+}
+
+/*tablet*/
+@media(max-width: 768px) {
   .range {
 		width: 100%;
 	}

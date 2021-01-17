@@ -173,6 +173,43 @@
 /*Parte mobile*/
 @media(max-width: 375px) {
     .texto-1{
+        font-size: 35px;
+        font-weight: 500;
+    }
+    .texto-2{
+        font-size: 80px;
+        font-weight: 600;
+        margin-left: -3px;
+    }
+    .texto-3{
+        font-size: 40px;
+        font-weight: 500;
+        margin: 5px 0;
+    }
+    .texto-3 span{
+        color: #009fe3;
+        font-weight: 500;
+    }
+
+    .sobreMim-detalhes {
+        margin: 30px 0 30px 0;
+    }
+
+    .sobreMim-img {
+		margin: -60px 0 0 0;
+		width: 300px;
+    }
+    
+    /*Educação*/
+    
+    .detalhes-educacao {
+		width: 100%;
+	}
+}   
+
+/*Tablet*/
+@media(max-width: 768px) {
+    .texto-1{
         font-size: 27px;
         font-weight: 500;
     }
