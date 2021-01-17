@@ -17,4 +17,4 @@ $('.carrossel').owlCarousel({
             nav: false
         }
     }
-});t
+});
